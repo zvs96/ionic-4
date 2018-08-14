@@ -20,6 +20,9 @@ export class HomePage {
 
   }
 
+  city: 'Yerevan';
+  country: 'AM'
+
   ionViewWillEnter(){
 
     this.storage.get('location').then((val) => {
